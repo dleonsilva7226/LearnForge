@@ -147,4 +147,3 @@ Full-Stack SWE Intern | Ruby on Rails & React | Passionate about EdTech
 ## 📄 License
 
 MIT
-
