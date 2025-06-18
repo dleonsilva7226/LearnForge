@@ -1,4 +1,4 @@
-# 🎓 LearnForge – Full-Stack LMS for Independent Creators
+# 🎓 LearnForge – Full-Stack LMS for Independent Creators (In Progress)
 
 **LearnForge** is a full-stack Learning Management System (LMS) designed to empower independent educators, creators, and small teams to publish structured courses, track learner progress, and monetize learning — without bloated tools or third-party fees.
 
