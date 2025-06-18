@@ -73,8 +73,8 @@ Password: `password123`
 ## 🎮 Dev Journey – Gamified Progress Tracker
 
 ### 🧭 LEVEL 1: *The Rails Forge*
-- [ ] Setup Rails API-only project with PostgreSQL
-- [ ] Create models: `User`, `Course`, `Lesson`, `Progress`
+- [X] Setup Rails API-only project with PostgreSQL
+- [X] Create models: `User`, `Course`, `Lesson`, `Progress`
 - [ ] Add JWT authentication and role logic
 - [ ] Build and test RESTful routes with Postman
 - [ ] Seed database with realistic demo data
