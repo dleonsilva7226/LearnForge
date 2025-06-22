@@ -23,6 +23,10 @@ default: &default
 development:
   <<: *default
   database: learnforge_backend_development
+  username: <%= ENV["PG_USERNAME"] %>
+  password: <%= ENV["PG_PASSWORD"] %>
+  host: <%= ENV["PG_HOST"] || "localhost" %>
+  port: <%= ENV["PG_PORT"] || 5432 %>
 
   # The specified database role being used to connect to PostgreSQL.
   # To create additional roles in PostgreSQL see `$ createuser --help`.
@@ -96,3 +100,7 @@ production:
     <<: *primary_production
     database: learnforge_backend_production_cable
     migrations_paths: db/cable_migrate
+
+supabase:
+  <<: *default
+  url: <%= ENV["DATABASE_URL"] %>
