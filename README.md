@@ -39,7 +39,7 @@ Can be deployed and branded by anyone. Perfect as a base for a **bootstrapped Sa
 | Backend API  | Ruby on Rails (API mode)                  |
 | Database     | PostgreSQL                                |
 | Auth         | JWT (stateless token auth)                |
-| Deployment   | Vercel (frontend), Fly.io (backend)       |
+| Deployment   | Vercel (frontend), AWS (backend)          |
 | Testing      | RSpec (backend), Jest/RTL (frontend)      |
 
 ---
